@@ -1,0 +1,21 @@
+schema_version = "1.0.0"
+
+id = "kenshi_io_tools"
+version = "1.4.0"
+name = "Kenshi IO Tools"
+tagline = "Import-export Kenshi meshes, skeletons and collisions"
+maintainer = "Lucius64 (original), pure Python port for Blender 4.4+ / 5.x"
+type = "add-on"
+website = "https://github.com/Lucius64/kenshi_io_blender/"
+tags = ["Import-Export"]
+
+blender_version_min = "4.4.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2025 Lucius64", "2026 Python port of kenshi_blender_tool"]
+
+[permissions]
+files = "Import/export OGRE meshes and PhysX collision files from/to disk"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "/log/", "/.git/", "/*.zip"]

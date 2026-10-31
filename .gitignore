@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+/dist/
+/out/
+/sources/
+/tests/research/
+addon/log/
+meshlist.txt
+*.log
+/README.uk.md
